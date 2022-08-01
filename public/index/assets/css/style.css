@@ -416,6 +416,10 @@ p {
             -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
             -moz-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
             box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16); }
+            .header-hero .header-content .header-btn li a.main-btn.btn-three:hover {
+              -webkit-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
+              -moz-box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16);
+              box-shadow: 0 3px 25px 0 rgba(0, 0, 0, 0.16); }
   .header-hero .header-shape {
     position: absolute;
     bottom: 0;

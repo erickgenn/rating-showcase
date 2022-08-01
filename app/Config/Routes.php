@@ -38,6 +38,8 @@ $routes->set404Override();
 $routes->get('/', 'LoginController::index');
 $routes->get('/home', 'Home::index');
 $routes->post('login/auth', 'LoginController::authentication');
+$routes->get('logout', 'LoginController::logout');
+$routes->post('select/major', 'MajorController::process');
 
 /*
  * --------------------------------------------------------------------

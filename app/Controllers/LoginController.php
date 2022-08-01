@@ -41,4 +41,12 @@ class LoginController extends BaseController
             return redirect()->to('/home');
         }
     }
+
+    public function logout()
+    {
+        $session = session();
+
+        session_destroy();
+        return redirect()->to('/');
+    }
 }
