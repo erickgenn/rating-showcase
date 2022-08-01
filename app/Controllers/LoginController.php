@@ -6,6 +6,13 @@ use App\Models\AdminModel;
 
 class LoginController extends BaseController
 {
+
+    public function index()
+    {
+        return view('login');
+    }
+
+
     public function authentication()
     {
         $session = session();
@@ -31,7 +38,7 @@ class LoginController extends BaseController
             $session->set($session_data);
             $session->setFlashdata('login_successful', $admin['name']);
 
-            return redirect()->to('home');
+            return redirect()->to('/home');
         }
     }
 }
