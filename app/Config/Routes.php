@@ -40,6 +40,10 @@ $routes->get('/home', 'Home::index');
 $routes->post('login/auth', 'LoginController::authentication');
 $routes->get('logout', 'LoginController::logout');
 $routes->post('select/major', 'MajorController::process');
+$routes->get('rating', 'RatingController::index');
+$routes->post('rating/process', 'RatingController::process');
+
+
 
 /*
  * --------------------------------------------------------------------

@@ -16,11 +16,16 @@ class MajorController extends BaseController
         $session->set($session_data);
 
         $data = $this->request->getPost();
+        if (!isset($data['major_id'])) {
+            $session->setFlashdata('major_notset', "failed");
+            return redirect()->to('/home');
+        }
         $major_id = $data['major_id'];
 
         $session_data = [
             'major_id' => $major_id
         ];
         $session->set($session_data);
+        return redirect()->to('/rating');
     }
 }

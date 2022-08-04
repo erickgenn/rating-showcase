@@ -47,6 +47,18 @@
             });
         </script>
     <?php endif; ?>
+
+    <?php if (session()->getFlashdata('major_notset')) : ?>
+        <script>
+            swal({
+                position: 'top-end',
+                icon: 'error',
+                title: 'Major Is Not Selected!',
+                showConfirmButton: false,
+                timer: 1500
+            });
+        </script>
+    <?php endif; ?>
     <!--====== HEADER PART START ======-->
 
     <header class="header-area">
@@ -76,7 +88,9 @@
                                         <div class="input-group">
                                             <select class="form-control" id="major_id" name="major_id" style="width:70%;">
                                                 <option value="" disabled selected>Select a Major</option>
-                                                <option value="1">Sistem Informasi</option>
+                                                <?php for ($i = 0; $i < count($major); $i++) : ?>
+                                                    <option value="<?php echo $major[$i]['id']; ?>"><?php echo $major[$i]['name']; ?></option>
+                                                <?php endfor; ?>
                                             </select>
                                         </div>
                                     </div>
