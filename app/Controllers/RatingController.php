@@ -20,6 +20,8 @@ class RatingController extends BaseController
 
     public function process()
     {
+        date_default_timezone_set("Asia/Jakarta");
+
         $session = session();
         $majorModel = new MajorModel();
         $ratingModel = new RatingModel();
@@ -31,6 +33,7 @@ class RatingController extends BaseController
             'rating1' => $data['rating-1'],
             'rating2'  => $data['rating-2'],
             'major_id'  => $_SESSION['major_id'],
+            'created_at' => date('Y-m-d H:i:s'),
         ];
 
         $ratingModel->insert($data_insert);

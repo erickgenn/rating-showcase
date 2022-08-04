@@ -99,7 +99,7 @@
                                     <li><a href="javascript:$('#major_form').submit();" class="main-btn btn-one">Continue</a></li>
                                 </ul>
                                 <ul class="header-btn">
-                                    <li><a class="main-btn btn-two">Download Report</a></li>
+                                    <li><a href="<?php echo base_url("/export") ?>" class="main-btn btn-two">Download Report</a></li>
                                 </ul>
                                 <ul class="header-btn">
                                     <li><a href="<?php echo base_url("/logout") ?>" style="background-color: #9b1c31; color:white;" class="main-btn btn-three">Log Out</a></li>

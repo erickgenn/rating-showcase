@@ -42,6 +42,8 @@ $routes->get('logout', 'LoginController::logout');
 $routes->post('select/major', 'MajorController::process');
 $routes->get('rating', 'RatingController::index');
 $routes->post('rating/process', 'RatingController::process');
+$routes->get('export', 'ExportController::export');
+
 
 
 
