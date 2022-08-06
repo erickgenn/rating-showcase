@@ -16,8 +16,8 @@ header("Content-Disposition: attachment; filename=Showcase_Rating " . date("Y-m-
                 <th>Jurusan</th>
                 <th>Pertanyaan 1</th>
                 <th>Pertanyaan 2</th>
-                <th>Waktu</th>
                 <th>Tanggal</th>
+                <th>Waktu</th>
             </tr>
         </thead>
         <tbody>
