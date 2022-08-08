@@ -7,6 +7,7 @@
   <meta charset="utf-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="/index/assets/images/favicon.png" type="image/png">
   <link rel="stylesheet" href="/rating_page/dist/style.css">
 
   <style>
@@ -110,7 +111,7 @@
         <header class="header space--medium">
         </header>
         <!-- First Question -->
-        <p style="font-family: Raleway; font-size:29px; color:white;"><b><?php echo $major['name']; ?></b></p>
+        <p style="font-family: Raleway; font-size:29px; color:black;"><b><?php echo $major['name']; ?></b></p>
         <br>
         <div>
           <h1 style="font-family: Raleway; font-size:30px;"><?php echo $question[0]['question1']; ?></h1>
@@ -122,31 +123,31 @@
             <div class="rating rating__fx--1 flexy__item flexy--reverse-row">
               <input type="radio" id="value-1-4" name="rating-1" value="5" />
               <label class="rating__label sparks" for="value-1-4">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-1-3" name="rating-1" value="4" />
               <label class="rating__label" for="value-1-3">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-1-2" name="rating-1" value="3" />
               <label class="rating__label" for="value-1-2">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-1-1" name="rating-1" value="2" />
               <label class="rating__label" for="value-1-1">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-1-0" name="rating-1" checked="checked" value="1" />
               <label class="rating__label" for="value-1-0">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
@@ -165,31 +166,31 @@
             <div class="rating rating__fx--1 flexy__item flexy--reverse-row">
               <input type="radio" id="value-2-4" name="rating-2" value="5" />
               <label class="rating__label sparks" for="value-2-4">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-2-3" name="rating-2" value="4" />
               <label class="rating__label" for="value-2-3">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-2-2" name="rating-2" value="3" />
               <label class="rating__label" for="value-2-2">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-2-1" name="rating-2" value="2" />
               <label class="rating__label" for="value-2-1">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
               <input type="radio" id="value-2-0" name="rating-2" checked="checked" value="1" />
               <label class="rating__label" for="value-2-0">
-                <svg class="rating__label__icon svg-icon fill--white">
+                <svg class="rating__label__icon svg-icon fill--gray">
                   <use class="use" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#star"></use>
                 </svg>
               </label>
