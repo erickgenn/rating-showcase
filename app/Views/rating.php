@@ -105,19 +105,19 @@
   </svg>
   <main class="flexy__item flexy--items-center flexy--justify-center flexy--column">
     <section class="section flexy__item flexy--column flexy--items-center space--big">
-      <header class="accessible-hide">
-      </header>
-      <article class="section__article flexy__item flexy--column flexy--items-center">
-        <header class="header space--medium">
+      <form action="<?php echo base_url("/rating/process") ?>" method="POST">
+        <header class="accessible-hide">
         </header>
-        <!-- First Question -->
-        <p style="font-family: Raleway; font-size:29px; color:black;"><b><?php echo $major['name']; ?></b></p>
-        <br>
-        <div>
-          <h1 style="font-family: Raleway; font-size:30px;"><?php echo $question[0]['question1']; ?></h1>
-        </div>
-        <br>
-        <form action="<?php echo base_url("/rating/process") ?>" method="POST">
+        <article class="section__article flexy__item flexy--column flexy--items-center">
+          <header class="header space--medium">
+          </header>
+          <!-- First Question -->
+          <p style="font-family: Raleway; font-size:22px; color:black;"><b><?php echo $major['name']; ?></b></p>
+          <br>
+          <div>
+            <h1 style="font-family: Raleway; font-size:27px;"><?php echo $question[0]['question1']; ?></h1>
+          </div>
+          <br>
           <fieldset class="space--medium">
             <legend class="accessible-hide">Effect 3</legend>
             <div class="rating rating__fx--1 flexy__item flexy--reverse-row">
@@ -157,7 +157,7 @@
           <!-- Second Question -->
           <div>
             <center>
-              <h1 style="font-family: Raleway; font-size:30px;"><?php echo $question[0]['question2']; ?></h1>
+              <h1 style="font-family: Raleway; font-size:27px;"><?php echo $question[0]['question2']; ?></h1>
             </center>
           </div>
           <br>
@@ -200,9 +200,9 @@
             <input type="hidden" id="question_2">
           </fieldset>
           <center><button class="button-75" type="submit" role="button"><span class="text">Submit</span></button></center>
-        </form>
-      </article>
-      <br>
+        </article>
+        <br>
+      </form>
     </section>
   </main>
 
