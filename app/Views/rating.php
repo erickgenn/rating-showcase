@@ -112,10 +112,10 @@
           <header class="header space--medium">
           </header>
           <!-- First Question -->
-          <p style="font-family: Raleway; font-size:22px; color:black;"><b><?php echo $major['name']; ?></b></p>
+          <h1 style="font-family: Raleway; font-size:38px; color:black;"><b><?php echo $major['name']; ?></b></h1>
           <br>
           <div>
-            <h1 style="font-family: Raleway; font-size:27px;"><?php echo $question[0]['question1']; ?></h1>
+            <p style="font-family: Raleway; font-size:30px;"><?php echo $question[0]['question1']; ?></p>
           </div>
           <br>
           <fieldset class="space--medium">
@@ -157,7 +157,7 @@
           <!-- Second Question -->
           <div>
             <center>
-              <h1 style="font-family: Raleway; font-size:27px;"><?php echo $question[0]['question2']; ?></h1>
+              <p style="font-family: Raleway; font-size:30px;"><?php echo $question[0]['question2']; ?></p>
             </center>
           </div>
           <br>
