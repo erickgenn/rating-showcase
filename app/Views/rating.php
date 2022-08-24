@@ -112,7 +112,7 @@
           <header class="header space--medium">
           </header>
           <!-- First Question -->
-          <h1 style="font-family: Raleway; font-size:38px; color:black;"><b><?php echo strtoupper($major['name']); ?></b></h1>
+          <h1 style="font-family: Raleway; font-size:33px; color:black;"><b><?php echo strtoupper($major['name']); ?></b></h1>
           <br>
           <div>
             <p style="font-family: Raleway; font-size:30px;"><?php echo $question[0]['question1']; ?></p>
@@ -157,7 +157,7 @@
           <!-- Second Question -->
           <div>
             <center>
-              <p style="font-family: Raleway; font-size:30px;"><?php echo $question[0]['question2']; ?></p>
+              <p style="font-family: Raleway; font-size:27px;"><?php echo $question[0]['question2']; ?></p>
             </center>
           </div>
           <br>
